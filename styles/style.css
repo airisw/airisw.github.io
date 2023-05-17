@@ -1,0 +1,32 @@
+body {
+    background-color: cornflowerblue;
+    color: snow;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+#current {
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+ul {
+    padding-left: 0;
+}
+
+li {
+    display: inline;
+    padding: 1em;
+}
+
+footer {
+    margin-top: 3em;
+}
