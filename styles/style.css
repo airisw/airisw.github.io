@@ -1,6 +1,6 @@
 body {
-    background-color: cornflowerblue;
-    color: snow;
+    background-color: #f7f7f7;
+    color: black;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -19,11 +19,11 @@ li {
 
 a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 a:visited {
-    color: white;
+    color: black;
 }
 
 #current {
