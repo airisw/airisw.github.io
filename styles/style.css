@@ -28,10 +28,10 @@ a:visited {
 
 #current {
     text-decoration: underline;
-    text-underline-offset: 2px;
+    text-underline-offset: 3px;
 }
 
 footer {
-    margin-top: 3em;
+    margin-top: 2em;
     text-align: center;
 }

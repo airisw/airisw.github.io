@@ -22,7 +22,7 @@ section {
 
 section:hover {
     background-color: #00000015;
-    border-radius: 50px;
+    border-radius: 50px 0 50px 0;
 }
 
 h2 {
@@ -31,4 +31,11 @@ h2 {
 
 p {
     margin: 5%;
+}
+
+em {
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 3px;
 }
