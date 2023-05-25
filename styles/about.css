@@ -32,6 +32,16 @@ em {
     text-underline-offset: 3px;
 }
 
+.animation {
+    display: inline-block;
+    animation: waving 2s infinite;
+    transform-origin: 70% 70%;
+}
+
+p {
+    display: inline;
+}
+
 img {
     max-width: 288px;
     height: auto;
