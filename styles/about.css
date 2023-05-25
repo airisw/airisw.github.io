@@ -8,9 +8,19 @@
     padding-right: 5px;
 }
 
+.bio {
+    max-width: 500px;
+}
+
 img {
-    max-width: 40vw;
+    max-width: 288px;
     height: auto;
     border-radius: 100%;
     margin-left: 2%;
+}
+
+@media (max-width: 768px) {
+    img {
+        max-width: 40vw;
+    }
 }
