@@ -25,6 +25,13 @@ h1 i {
     font-weight: normal;
 }
 
+em {
+    font-style: normal;
+    font-weight: bold;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
 img {
     max-width: 288px;
     height: auto;
