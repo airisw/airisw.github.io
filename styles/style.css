@@ -22,6 +22,14 @@ a {
     color: black;
 }
 
+.navlinks {
+    display: inline-block;
+}
+
+.navlinks:hover {
+    transform: scale(1.2);
+}
+
 a:visited {
     color: black;
 }
