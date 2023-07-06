@@ -29,8 +29,15 @@ h2 {
     text-align: center;
 }
 
+img {
+    width: 85%;
+    height: auto;
+    margin-left: 7%;
+}
+
 p {
     margin: 5%;
+    margin-top: 2%;
 }
 
 em {
