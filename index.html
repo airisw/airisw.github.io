@@ -6,23 +6,116 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Welcome | Airis Wang</title>
         <link rel="stylesheet" href="styles/style.css">
-        <link rel="stylesheet" href="styles/index.css">
         <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Quicksand&display=swap" rel="stylesheet">
     </head>
+
     <body>
         <header>
             <nav>
                 <ul>
-                    <li class="navlinks"><a href="#" id="current">Home</a></li>
-                    <li class="navlinks"><a href="pages/about.html">About</a></li>
-                    <li class="navlinks"><a href="pages/portfolio.html">Portfolio</a></li>
-                    <li class="navlinks"><a href="pages/contact.html">Contact</a></li>
+                    <li class="navlinks"><a href="#about">About</a></li>
+                    <li class="navlinks"><a href="#portfolio">Portfolio</a></li>
+                    <li class="navlinks"><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
-        <main class="container">
-            <h1>Airis Wang</h1>
-            <h2>Software Developer in NYC</h2>
+
+        <main>
+            <section class="container">
+                <h1>Airis Wang</h1>
+                <h2>Software Developer in NYC</h2>
+            </section>
+
+            <section id="about" class="container-element">
+                <div class="bio">
+                    <h1>Airis <i>(eye &bull; ris)</i></h1>
+                    <p>Hi there!</p>
+                    <div class="animation">👋</div> 
+                    <p>
+                        My name is Airis, and I'm a software developer based in NYC with roots in Rio de Janeiro, Brazil. While I hold a Bachelor of Science in Economics, my  rediscovered passion for technology has led me to pursue a career as a software developer, and I am currently attending Ada Developers Academy. In my free time, you can often find me strolling in the city or discovering new restaurants.
+                        <br><br>
+                        <em>Technologies:</em> Python, Flask, PostgreSQL, HTML & CSS, Javascript, React
+                    </p>
+                </div>
+                    <img src="../assets/images/photo.jpeg" alt="Photo of myself" id="selfie">
+            </section>
+
+            <section id="portfolio">
+                <h1>Portfolio</h1>
+                <div>
+                <article>
+                    <h2>Task List</h2>
+                    <img src="../assets/images/task-list.png" alt="Task List UI" class="project-ui">
+                    <p>
+                        Designed a Task List app with a RESTful API built in Flask, integrated with a SQL database to ensure data persistance across uses, and deployed on Render. <br><br> The responsive front-end is built in React and provides an intuitive user interface with visual cues once tasks are completed. Users can create, organize, and manage tasks and goals effortlessly, and receive real-time notifications on Slack once tasks are completed.
+                        <br><br>
+                        <em>Technologies:</em> Python, Flask, PostgreSQL, REST API, Postman, Render
+                        <br><br>
+                        <b>Links:</b> <a href="https://airisw.github.io/task-list-front-end/">Live Version</a> | <a href="https://github.com/airisw/task-list-front-end">Front-end</a> | <a href="https://github.com/airisw/task-list-api">Back-end</a>
+                    </p>
+                </article>
+                <article>
+                    <h2>Weather Report</h2>
+                    <img src="../assets/images/weather-report.png" alt="Weather Report UI" class="project-ui">
+                    <p>
+                        Developed a front-end web application integrated with the OpenWeather API to fetch real-time weather data for different cities. Users can interact with the interface by changing the temperature, and adjudsting the sky and garden illustrations presented.
+                        <br><br>
+                        <em>Technologies:</em> HTML, CSS, JavaScript
+                        <br><br>
+                        <b>Links:</b> <a href="https://airisw.github.io/weather-report/">Live Version</a> | <a href="https://github.com/airisw/weather-report">GitHub</a>
+                    </p>
+                </article>
+                <article>
+                    <h2>PyWordle</h2>
+                    <p>
+                        A word puzzle game developed in Python, inspired by the Wordle game published by NYT, and using the Wonderwords library to generate random words. Originally developed using imperative programming techniques, this project was redesigned using OOP.
+                        <br><br>
+                        <em>Technology:</em> Python
+                        <br><br>
+                        <b>Link:</b> <a href="https://github.com/airisw/pywordle">GitHub</a>
+                    </p>
+                </article>
+                <article>
+                    <h2>Swap Meet</h2>
+                    <p>
+                        Implemented OOP principles to develop an app that enables users to exchange items by creating personalized inventories for swapping. The app allows filtering based on best condition and age of each item per category.
+                        <br><br>
+                        <em>Technology:</em> Python
+                        <br><br>
+                        <b>Link:</b> <a href="https://github.com/airisw/swap-meet">GitHub</a>
+                    </p>
+                </article>
+                <article>
+                    <h2>Viewing Party</h2>
+                    <p>
+                        This project aims to assist you in managing your personal movies database, as well those of your friends. It will leverage your friends' watched lists to recommend you new movies based on availability within your subscribed streaming services.
+                        <br><br>
+                        <em>Technology:</em> Python
+                        <br><br>
+                        <b>Link:</b> <a href="https://github.com/airisw/viewing-party">GitHub</a>  
+                    </p>
+                </article>
+                <article>
+                    <h2>Adagrams</h2>
+                    <p>
+                        Word puzzle game inspired by the concept of anagrams similar to Scrabble. Players are given a random set of letters and score points with each word submission.
+                        <br><br>
+                        <em>Technology:</em> Python
+                        <br><br>
+                        <b>Link:</b> <a href="https://github.com/airisw/adagrams-py">GitHub</a>
+                    </p>
+                </article>
+                </div>
+            </section>
+
+            <section id="contact">
+                <h1>Contact</h1>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/airisw/"><img src="../assets/icons/linkedin.svg" alt="LinkedIn icon"></a></li>
+                    <li><a href="mailto:&#097;&#105;&#114;&#105;&#115;&#119;&#097;&#110;&#103;&#064;&#104;&#111;&#116;&#109;&#097;&#105;&#108;&#046;&#099;&#111;&#109;"><img src="../assets/icons/mail.svg" alt="E-mail icon"></a></li>
+                    <li><a href="https://github.com/airisw"><img src="../assets/icons/github.svg" alt="GitHub icon"></a></li>
+                </ul>
+            </section>
         </main>
         <footer>&copy; 2023 Airis Wang</footer>
     </body>
