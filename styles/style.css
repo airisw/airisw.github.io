@@ -16,7 +16,7 @@ nav {
     top: 0;
     left: 0;
     right: 0;
-    background-color: white;
+    background-color: #f7f7f7;
     -webkit-backdrop-filter: blur(1px);
     z-index: 1;
 }
@@ -79,8 +79,8 @@ section.container > h2 {
 
 /* ~~~~~~ about ~~~~~~ */
 
-section.container-element {
-    margin-top: 20vh;
+section#about.container-element {
+    margin-top: 10vh;
     margin-bottom: 15vh;
 }
 
@@ -160,6 +160,44 @@ img#selfie {
     height: auto;
     border-radius: 100%;
     margin-left: 2%;
+}
+
+/* ~~~~~ skills ~~~~~~ */
+section#skills.container-element {
+    margin-top: 20vh;
+    margin-bottom: 40vh;
+}
+
+section#skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+}
+
+section#skills > h1 {
+    text-align: center;
+    margin-top: 25px;
+    text-shadow: 0px 4px 4px
+    rgba(0, 0, 0, 0.10);
+    font-size: 2em;
+}
+
+section#skills > h2 {
+    text-align: center;
+    margin-top: 25px;
+    text-shadow: 0px 4px 4px
+    rgba(0, 0, 0, 0.10);
+}
+
+section#skills li {
+    display: inline-block;
+    width: 80px;
+}
+
+section#skills p {
+    margin-top: 5px;
 }
 
 /* ~~~~~~ portfolio ~~~~~~ */
