@@ -3,10 +3,34 @@ html {
     scroll-padding-top: 13vh;
 }
 
-body {
+body.light-theme {
     background-color: #f7f7f7;
     color: black;
     font-family: 'Quicksand', sans-serif;
+}
+
+/* ~~~~~~ dark theme ~~~~~~ */
+
+body.dark-theme {
+    background-color: #2b2b2b;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body.dark-theme a {
+    color: white;
+}
+
+body.dark-theme nav {
+    background-color: #2b2b2b;
+}
+
+body.dark-theme section#portfolio article {
+    background-color: #ffffff0c;
+}
+
+body.dark-theme section#portfolio article:hover {
+    background-color: #ffffff26;
 }
 
 /* ~~~~~~ navigation ~~~~~~ */
@@ -52,6 +76,44 @@ a {
 
 .navlinks a:active {
     text-decoration: underline;
+}
+
+/* ~~~~~~ theme button ~~~~~~ */
+
+.toggle {
+    /* position : relative ; */
+    position: absolute;
+    right: 5px;
+    top: 20px;
+    display : inline-block;
+    width: 46px;
+    height: 22px;
+    background-color: #00000015;
+    border-radius: 30px;
+}
+
+.toggle:after {
+    content: '';
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #f7f7f7;
+    top: 1px;
+    left: 1px;
+    transition: all 0.5s;
+}
+
+.checkbox:checked + .toggle::after {
+    left : 25px;
+}
+
+.checkbox:checked + .toggle {
+    background-color: #ffffff3c;
+}
+
+.checkbox {
+    display : none;
 }
 
 /* ~~~~~~ landing ~~~~~~ */
@@ -162,7 +224,7 @@ img#selfie {
     margin-left: 2%;
 }
 
-/* ~~~~~ skills ~~~~~~ */
+/* ~~~~~~ skills ~~~~~~ */
 
 section#skills.container-element {
     margin-top: 20vh;
@@ -277,7 +339,7 @@ section#contact > h1{
     font-size: 2em;
 }
 
-section#contact img:hover {
+section#contact iconify-icon:hover {
     transform: scale(1.3);
 }
 
