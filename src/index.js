@@ -8,8 +8,6 @@ const loadControls = () => {
     state.toggleBtn = document.getElementById('switch');
 }
 
-// if checked: show dark mode
-// if unchecked: show light mode
 const changeTheme = () => {
     console.log('trying to change');
 

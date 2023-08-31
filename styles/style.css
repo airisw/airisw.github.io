@@ -83,7 +83,7 @@ a {
 .toggle {
     /* position : relative ; */
     position: absolute;
-    right: 5px;
+    right: 10px;
     top: 20px;
     display : inline-block;
     width: 46px;
